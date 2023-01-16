@@ -62,7 +62,7 @@ public class UIKeywords
 	
 	public static void closeBrowser() 
 	{
-		driver.close();
+		driver.quit();
 		System.out.println("Browser closed");
 //		log.info("Browser closed");
 	}
