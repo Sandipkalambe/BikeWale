@@ -59,6 +59,21 @@
 			<version>7.4.0</version> </dependency> -->
 
 
+		<dependency>
+			<groupId>com.testingshatra</groupId>
+			<artifactId>Wikipedia</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.testingshatra</groupId>
+			<artifactId>FrameworkCarwale</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.testingshastra</groupId>
+			<artifactId>TestNGDemo</artifactId>
+			<version>0.0.1</version>
+		</dependency>
 	</dependencies>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>

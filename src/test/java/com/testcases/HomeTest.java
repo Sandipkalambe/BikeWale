@@ -11,6 +11,8 @@ public class HomeTest extends TestBase {
 	public void clickOnLoginBtn() {
 		HomePage home = new HomePage();
 		home.clickOnLoginBtn();
+		home.searchBox.click();
+		home.searchBike("Royal Enfield Hunter 350");
 
 	}
 
