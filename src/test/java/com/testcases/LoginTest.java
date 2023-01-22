@@ -12,7 +12,7 @@ import com.pages.LoginPage;
  *
  */
 public class LoginTest extends TestBase {
-	@Test (description = "TC01" ,groups = "@regression, passed")
+	@Test(description = "TC01", groups = "@regression, passed")
 	public void valid_login() {
 		LoginPage login = new LoginPage();
 		HomePage home = new HomePage();

@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 *.html
+*.xml
+
+test-output/
+target/
+src/Log
+
 # Log file
 *.log
 

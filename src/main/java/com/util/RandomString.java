@@ -1,14 +1,8 @@
 package com.util;
-/**
- * 
- * @author Akshay Thite
- *
- */
-public class RandomString 
-{
-	public static void string(int length) 
-	{
-		
+
+public class RandomString {
+	public static void string(int length) {
+
 	}
-	
+
 }

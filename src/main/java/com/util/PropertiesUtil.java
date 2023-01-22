@@ -5,17 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-//import org.apache.log4j.Logger;
-
-//import config.TestBase;
-/**
- * 
- * @author Akshay Thite
- *
- */
 public class PropertiesUtil 
 {
-//	private static Logger log = Logger.getLogger(PropertiesUtil.class);
 	public String getValue(String filePath , String key) 
 	{
 		FileInputStream fis = null;
@@ -26,7 +17,6 @@ public class PropertiesUtil
 		catch(FileNotFoundException e)
 		{
 			System.err.println("File not found : " +filePath);
-//			log.error("File not found : " +filePath);
 		}
 		Properties prop = new Properties();
 		try 
@@ -36,7 +26,6 @@ public class PropertiesUtil
 		catch (IOException e) 
 		{
 			System.err.println("Unable to load properties file : "+filePath);
-//			log.error("Unable to load properties file : "+filePath);		
 		}
 		return prop.getProperty(key);
 	}
@@ -47,7 +36,7 @@ public class PropertiesUtil
 	 */
 	public String[] getLocator(String key)
 	{
-		String baseDir = System.getProperty("user.dir");      // returns current working directory
+		String baseDir = System.getProperty("user.dir");      
 		return getValue(baseDir+"/src/main/resources/OR.properties",key).split("##");
 	}
 }
